@@ -1,0 +1,115 @@
+/****** BASE STYLES ******/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+#welcome {
+  height: 460px;
+}
+#details {
+  height: 210px;
+}
+#contact {
+  height: 80px;
+}
+
+/****** GRID ******/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+/******* HEADER *******/
+header {
+    height: 80px;
+}
+
+h1 {
+  float: left;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 20px 0px;
+}
+
+nav ul li {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 700;
+      padding-left: 20px;
+}
+
+nav a {
+      color: #77a466;
+      text-decoration: none;
+}
+
+/****** WELCOME ******/
+h2 {
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/****** DETAILS ******/
+h3 {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+#full-width {
+
+}
+
+#third-width {
+  padding: 30px, 30px, 20px;
+}
+
+a {
+  color: #77a466;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.address {
+  line-height: 60px;
+}
+/****** FOOTER ******/
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer span {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
